@@ -1,4 +1,1068 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="weekType" Collapsed="true">
+    <Position X="26.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIACAAACAAAAAAAEAAAAAAABAAAJgAAAAAAAACA=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gameType">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QESoEoAAIgAAAAGABIAIAABAABAYAKDFIAFCBCAAIgA=</HashCode>
+      <FileName>bo\depthchart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="venueType" Collapsed="true">
+    <Position X="21" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAgCAAAIEIYACAAAAAIFACAHAAAAAAAAAgQ=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="linkType" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAGAAAAAAIAAAAAAAADAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="broadcastType" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACCACAAAAAAAAAAAAgAAEAAAAAAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="weatherType" Collapsed="true">
+    <Position X="22.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAIAAAAACAAAAAAAAAAAQAQAAAAQBAA=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="weatherTypeWind" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEIAAAAAAAAAAAAAAAAQAAAAAAAQAAAAA=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="byeweekTypeTeam" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAgA=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="season" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAEAAAAAAABAACAgAQAAAAAAAA=</HashCode>
+      <FileName>bo\weekschedule.cs</FileName>
+      <NewMemberFileName>bo\seasonschedule.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsType" Collapsed="true">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAACAAAAECAABAIABGAAAAQAEACAAAAAAIAAAAgA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kickReturnType" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAiwAEAABIJAAAAAAGAABBAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kickReturnTypePlayer" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ikABwAAAAAEAAgwAEIABIJAAABAEGCAABAAAAACIYiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamReferenceType" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAIAACAAAAAAEACAAAAAAAAAAAgA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsType" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAQQoIIgNEIAQQAApAgIIAACFAkCCBAEACgBAAIIq4=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeTwo_point_conversion" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAgAAUAAAEQAIAAAAAAAAAEAAAgAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeTouchdowns" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKEAAAgAAQAAAEASAAAABAAAAICAAAAAAAAAQKEIA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeRushing" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkAJAAUgABEAAgwAWAABANAAAAAACAAAhAAAAACDSCQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeReceiving" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkEBACAgAQEEAgwCEAIBAJAAAAAACQAABAAAAAiBQCQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypePunting" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAIAAIAIAEEB0BEicAEMIAAAAAAAAEAAAAQAIxICA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypePunt_return" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAgwAEAABIJAAAAAAGAAABAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypePenalty" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAACAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABBAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypePassing" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkAJEAQAICkCKgwAUCKBANBEwQAACAABhAAASBDDQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeKickoffs" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAIAAIAIAFEBwBECMAEMIgAAAAAAAEAQBAQAIhICA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeKick_return" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAgwAEAABIJAAAAAAGAAABAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeFumbles" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAIwBAAAgAAIAABAEAgRAACBAIAAAAQAACAAAgQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeFirst_downs" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAgAAQAAAEAAgAAAAAAAAAAAAAAQAAAAAABAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeField_goal_return" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAgwAEAABIJAAAAAAGAAABAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeField_goal" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAACDAQAAIQAAgIQoAAAIAEgAQEAAwAgAAAAAAQRAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeExtra_point" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAAAAAAAQgAAAAAEAAAAAAQAgAAAAAAQAAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeDefense" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABk4lKYAAEgAICKgBjKAYAJoWEJAACAAwEABggSGCAQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeBlocked_punt_return" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAgwAEAABIJAAAAAAGAAABAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerStatisticsTypeBlocked_field_goal_return" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAgwAEAABIJAAAAAAGAAABAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="downEfficiencyType" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBCAAAAgAAQCCAEQAgAAAAEAAAEAAIBgQAAAAAAAAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="downEfficiencyTypePlayer" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCACQAAAgAEQCAAEQIgAIAAEABAEACAAgQAAAAAIIiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeDefense" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABk4lKYAAEgAICKgBjKAYAJoWEJAACABwEABggSGCAQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeDefensePlayer" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBk41KYAAEkAICKgBrKAYAJoWFJEACAAwEABggSOKiQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeExtra_point" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAAAACAAQgAAAAAEAAAAAAQBgAAAAAAQAAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeExtra_pointPlayer" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>giAAQAAAAAEAAAAAQoAAIAAEABAEACQAgAAAAAAYIiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeField_goal" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAACDAQAAIQACgIQoAAAIAEgAQEAAwBgAAAAAAQRAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeField_goalPlayer" Collapsed="true">
+    <Position X="17.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>giAASDAQAAMQAAgIQoAAIIAEgBQEACwAgAAAAAAYZiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeFirst_downs" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAgAAQACAEAAgAAAAAAAAAAAABAQAAAAAABAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeFirst_downsPlayer" Collapsed="true">
+    <Position X="21" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACQCAAgAEQAAAEAIgAIAAAABAEACAAAQAAAAAIJiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeFumbles" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAIwBAAAgCAIAABAEAgRAACBAIABAAQAACAAAgQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeFumblesPlayer" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCEAQAIwBAEAgAAIAIBAMAgRABCFAKAAAAQAACAIIiQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeGoal_efficiency" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABgAAAAAAAACAAQAAAAAAEAAAAAAQBgAAAAAAAQAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeGoal_efficiencyPlayer" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCABwAAAAAEAAAAAQIAAIAAEABAEACQAgAAAAAAIYiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeKickoffs" Collapsed="true">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAIAAIAIAFEDwBECMAEMIgAAAAAAAFAQBAQAIhICA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeKickoffsPlayer" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwAAYAAIAIEFEBwBEKMAMMIgABAEACAEAQBAQAIpIiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePassing" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkAJEAQAICkCKiwAUCKBANBEwQAACAABhAAASBDDQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePassingPlayer" Collapsed="true">
+    <Position X="12.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkAJUAQAICkCKgwAUKKBINBEwRAECCABhAAASBDLYiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePenalty" Collapsed="true">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAACAAAAAAACQAAAAAAAAAAAAAAAABAAAAAAABBAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePenaltyPlayer" Collapsed="true">
+    <Position X="15.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgAAQCAAAAEAAAQAAIAAIAAAABAEACAAAAAAAAAJJiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePlayers" Collapsed="true">
+    <Position X="17.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePunt_return" Collapsed="true">
+    <Position X="19.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkABgAAAAAEAAiwAEAABIJAAAAAAGAABBAAAAACAQCA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePunt_returnPlayer" Collapsed="true">
+    <Position X="21" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ikABwAAAAAEAAgwAEIABIJAAABAEGCAABAAAAACIYiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePunting" Collapsed="true">
+    <Position X="22.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAIAAIAIAEED0BEicAEMIAAAAAAAAFAAAAQAIxICA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypePuntingPlayer" Collapsed="true">
+    <Position X="24.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwAAYAAIAIEEEB0BEqcAMMIAABAEACAEAAAAQAI5IiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeReceiving" Collapsed="true">
+    <Position X="26.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkEBACAgAQEEAiwCEAIBAJAAAAAACQABBAAAAAiBQCQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeReceivingPlayer" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkEBQCAgAQEEAgwCEIIBIJAAABAECSAABAAAAAiJYiQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeRedzone_efficiency" Collapsed="true">
+    <Position X="7" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAAAAACAAQAAAAAAEAAAAAAABgAAAAAAAQAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeRedzone_efficiencyPlayer" Collapsed="true">
+    <Position X="8.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCABQAAAAAEAAAAAQIAAIAAEABAEACAAgAAAAAAIYiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeRushing" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkAJAAUgABEAAiwAWAABANAAAAAACAABhAAAAACDSCQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeRushingPlayer" Collapsed="true">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkAJQAUgABEAAgwAWIABINAAABAECCAAhAAAAACLaiQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeTouchdowns" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKEAAAgAAQACAEASAAAABAAAAICAABAAAAAAQKEIA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeTouchdownsPlayer" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAKUAAAgAEQAAAEAaAAIABAABAMCCAAAAAAAAQKMqA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeTwo_point_conversion" Collapsed="true">
+    <Position X="17.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAAgAAUACAEQAIAAAAAAAAAEAABgAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamStatisticsTypeTwo_point_conversionPlayer" Collapsed="true">
+    <Position X="19.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACwAAAgAEUAAAEQIIAIAAAABAEECAAgAAAAAAIIiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="games" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAACAAAAAAAEAAAAAAABAAAJgAAAAAAAAAA=</HashCode>
+      <FileName>bo\gameboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="seasonType" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIEAAAAAAAAAAAAEAAAABAAQAAAAgAAAAAAAIAA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="player" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABQIAAAAEAAAAAAIAAIAAAABAEACAAAAAAAAAIIiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leaders" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAoAIAAACAAAAAAAEAAAAAEAFAABAkAAgAAAAAgA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leadersPlayer" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkAJUAQAICkCKgwAUKKBINBEwRAUCCABhAAASBDLYiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leadersPlayer1" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkAJQAUgABEAAgwAWIABINAAABAUCCAAhAAAAACLaiQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leadersPlayer2" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkEBQCAgAQEEAgwCEIIBIJAAABAUCSAABAAAAAiJYiQ=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leadersPlayer3" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>giAASDAQAAMQAAgIQoAAIIAEgBQUACwAgAAAAAAYZiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="leadersPlayer4" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>giAAQAAAAAEAAAAAQoAAIAAEABAUACQAgAAAAAAYIiA=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamType" Collapsed="true">
+    <Position X="14" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAIGASCBQICgGEAAAAIEACQBAAAEIAAAAgI=</HashCode>
+      <FileName>bo\depthchart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoreType" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAACAAAAAAAAAAAAAQABAIABAAAAAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="quarterType" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAQAAAIAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoringDriveTypeDrive" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAIAAAAAAAQAIAFgQACAAAAIAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoringDriveTypeDriveScore" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAAAACAAQAAIAAAAAAAQAJAIABAAACAAAAgAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QESoUgAAAgIAAAUAAAAIAEAAAAAQAKDFAABCBAAAogA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerType" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qAaQRoIKzJkpAaQDlpIhOohICEAUCKBxMCHkIAAAIp4=</HashCode>
+      <FileName>bo\depthchart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="injuryType" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAAAAIAACAAAAAAAAACAAAAQAAgAoIgQ=</HashCode>
+      <FileName>bo\gameroster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="league" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAgA=</HashCode>
+      <FileName>bo\teamheirarchy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="conferenceType" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAEAAAAAAEACQAAAAAAAAAAgA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="divisionType" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAUACAAAAAAAAAAIgA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamTypeVenue" Collapsed="true">
+    <Position X="17.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAgCAAAIEIYACAAAAAIFACAHAAAAAAAAAgQ=</HashCode>
+      <FileName>bo\teamheirarchy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="squadType" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAACAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\depthchart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="positionType" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAIAAAAAAAAAEAABBgAAAAAAAAAA=</HashCode>
+      <FileName>bo\depthchart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="standings" Collapsed="true">
+    <Position X="14" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAIAAAAACAAAAAAAAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="standingsType" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBCACQCEgAgQAAGLAMAICAgARQAEAKAECASABQIQggA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="recordType" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAABAAAAAIICAAAAAAAAgAAAAAAAAIAQAAEA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoringType" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAEABAAAAgAAAAAAQACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="standingsTypeStreak" Collapsed="true">
+    <Position X="17.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAADACAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\standings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playType" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAgAJABMJACIAUAAKAIBAAAUERJIKgvwQBiE3AAggA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="situationType" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAACAAAAAKAAAAAAAAQQAAAAAABAABAAIAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeDefense" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkgEIYAAAAAAAIABCIAAAAgAAAAAAAAAECIgAQCAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeRushing" Collapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAJAAQgAAAAAAQAQAAAAEAAAAAAAAAAgAAAAAADQAQ=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeReceiving" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgEBACAgAQAEAAQCAAIAAAAAAAAAAQAAAAAAAAgBQAQ=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypePunt_return" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAAAAAAAAAQAAAAAIAAAAAAAGAAAAAAAAAAAQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypePunting" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAEABUAAiYAEEIAAAAAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypePenalty" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAAAAAAAQAABAAAAAAAAAAAAACAAAAAAABAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypePassing" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAJEAQAAAgCAAQAQCAAAEBAAAAAAAABgAAAABADQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeKick_return" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAAAAAAAAAQAAAAAIAAAAAAAGAAAAAAAAAAAQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeKickoffs" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAFABQAACIAEEIgAAAAAAAAAQBAQAAAAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeInterception_return" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAAAAAAAAAQAAAAAIAAAAAAAGAAAAAAAAAAAQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeFumble_return" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAABAAAAQAACAAAAAAACIAAAAAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeField_goal_return" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAAAAAAAAAQAAAAAIAAAAAAAGAAAAAAAAAAAQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeField_goal" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAEAAQAQgIAAAAAAAAAAAUAgAAAAAAQAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeExtra_point" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAQgAAAAAAAAAAAAQAgAAAAAAQAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeTwo_point_conversion" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAQAQAAAAAAAAAAAAAAAgACIAAAAAAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeBlocked_punt_return" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAAAAAAAAAQAAAAAIAAAAAAAGAAAAAAAAAAAQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="playerTypeBlocked_field_goal_return" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAAAAAAAAAQAAAAAIAAAAAAAGAAAAAAAAAAAQAA=</HashCode>
+      <FileName>bo\playsummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gameSummary" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAAIAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>bo\playbplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamRefType" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAEAAAAAAAAEAAAAQAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>bo\playbplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="driveType" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAAAAACAAAAAAAAAAAAAAQAAAAAAACAAAAIAA=</HashCode>
+      <FileName>bo\playbplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eventType" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAAAACAAQAAAAAAAAEAAABAAAEAQAiAEAAgAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="timeout" Collapsed="true">
+    <Position X="19.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\playbplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="winner" Collapsed="true">
+    <Position X="5.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAgA=</HashCode>
+      <FileName>bo\playbplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gameQuarter" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAgAIAAABACgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\playbplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryType" Collapsed="true">
+    <Position X="21" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AawBIgRI4FAEASUZIIQAiAAICkAkACAAgACABAQAAgU=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeFirst_downs" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="downConversionType" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAgAAAAAAAAAAAAAAAAEAAAAAAEAAgAAAAAAQ=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zoneEfficiencyType" Collapsed="true">
+    <Position X="7" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAAAAAAAAQAAAAAAEAAAAAAAAgAAAAAAAQAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kickConversionType" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAQgAAAAAAAAAAAAQAgAAAAAAQAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="returnAttemptType" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAQAQAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="returnYardageType" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAAAAAQAAAAAACAAIAEAAAAAAAIA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="passingType" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgEAAAAggAAAYAUCAAAAAAAAAAAAABgAAAAAQAACA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="passingTypeYards" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgAAAAAAAAAAAAAEQIAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="netYardageType" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABBAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeKickoffs" Collapsed="true">
+    <Position X="26.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQBAAIAAAAEAgAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypePunts" Collapsed="true">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAMgAAAAAAAAAAAAAAAAAAAAAxACA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypePenalties" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAQAQAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeFumbles" Collapsed="true">
+    <Position X="24.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAAIAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeTouchdowns" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABgAAQIAIQAAAIAAAAQAAAGAACAAAEEAgAAAAAIA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeExtra_points" Collapsed="true">
+    <Position X="22.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAQAAAQIAACAAAAAAAAAQAgAAAAAAAAQA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeSafeties" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamSummaryTypeTurnovers" Collapsed="true">
+    <Position X="12.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\gamesummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eventTypeTimeout" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eventTypeWinner" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAgA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lastEventType" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="possessionType" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAACAAAAAKAAAAAAAAQQAAAAAABAABAAIAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamLeadersType" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAAAAAAAAAAAAAAAAAAAEAEAAAAEAAgAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamLeadersTypePlayer" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkAJUAQAICkCKgwAUKKBINBEwQAECCABhAAASBDDYiA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamLeadersTypePlayer1" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkAJQAUgABEAAgwAWIABINAAAAAECCAAhAAAAACDaiQ=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamLeadersTypePlayer2" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jkEBQCAgAQEEAgwCEIIBIJAAAAAECSAABAAAAAiBYiQ=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="teamTypePossession" Collapsed="true">
+    <Position X="15.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="gameTypeStatus" Collapsed="true">
+    <Position X="7" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgIAAAAAAAAAAAAABAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>bo\depthchart.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ItemsChoiceType" Collapsed="true">
+    <Position X="8.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAIIAgEAIAAQQAhAAAAAICEAEAAABIAAgAAQAAoI=</HashCode>
+      <FileName>bo\gamestatistics.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="gameStatus" Collapsed="true">
+    <Position X="5.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgIAAAAAAAAAAAAABAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>bo\extendedboxscore.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

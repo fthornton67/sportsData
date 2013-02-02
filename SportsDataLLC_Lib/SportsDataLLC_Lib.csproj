@@ -40,6 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bo\depthchart.cs" />
+    <Compile Include="bo\extendedboxscore.cs" />
+    <Compile Include="bo\gameboxscore.cs" />
+    <Compile Include="bo\gameroster.cs" />
+    <Compile Include="bo\gamestatistics.cs" />
+    <Compile Include="bo\gamesummary.cs" />
+    <Compile Include="bo\injuries.cs" />
+    <Compile Include="bo\playbplay.cs" />
+    <Compile Include="bo\playsummary.cs" />
+    <Compile Include="bo\seasonalstats.cs" />
+    <Compile Include="bo\seasonschedule.cs" />
+    <Compile Include="bo\standings.cs" />
+    <Compile Include="bo\teamdepthchart.cs" />
+    <Compile Include="bo\teamheirarchy.cs" />
+    <Compile Include="bo\teamroster.cs" />
+    <Compile Include="bo\weeklyboxscore.cs" />
+    <Compile Include="bo\weeklyleagueleaders.cs" />
+    <Compile Include="bo\weekschedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

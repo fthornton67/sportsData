@@ -2,3 +2,7 @@ C:\_MyInkStainDev\web_dev\SportsDataLLC_Lib\bin\Release\SportsDataLLC_Lib.dll
 C:\_MyInkStainDev\web_dev\SportsDataLLC_Lib\bin\Release\SportsDataLLC_Lib.pdb
 C:\_MyInkStainDev\web_dev\SportsDataLLC_Lib\obj\Release\SportsDataLLC_Lib.dll
 C:\_MyInkStainDev\web_dev\SportsDataLLC_Lib\obj\Release\SportsDataLLC_Lib.pdb
+C:\_MyInkStainDev\sportsData\SportsDataLLC_Lib\bin\Release\SportsDataLLC_Lib.dll
+C:\_MyInkStainDev\sportsData\SportsDataLLC_Lib\bin\Release\SportsDataLLC_Lib.pdb
+C:\_MyInkStainDev\sportsData\SportsDataLLC_Lib\obj\Release\SportsDataLLC_Lib.dll
+C:\_MyInkStainDev\sportsData\SportsDataLLC_Lib\obj\Release\SportsDataLLC_Lib.pdb
